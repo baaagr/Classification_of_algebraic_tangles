@@ -1,8 +1,6 @@
 from copy import deepcopy, copy
 from functools import total_ordering
-from icecream import ic
 from other_classes import OneOverZero, MyFraction, RationalStr
-#from bracket import bracket, split
 
 @total_ordering
 class Tangle():

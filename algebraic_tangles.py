@@ -3,10 +3,8 @@ import partition
 import pandas as pd
 from rational_tangles import RationalTangle
 from other_classes import MyFraction, OneOverZero
-from functools import total_ordering
 from collections import defaultdict
 from copy import deepcopy
-from icecream import ic
 from tqdm import tqdm
 
 def tree_from_string(string):
@@ -1319,7 +1317,7 @@ if __name__ == '__main__':
     #test_rotations()
     #test_one()
     #test_few()
-    classify(10)
+    classify(8)
     #to_representative()
     #test_minimal()
 

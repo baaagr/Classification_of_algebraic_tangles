@@ -2,7 +2,6 @@ from inspect import stack
 from numbers import Real
 from fractions import Fraction
 from functools import total_ordering
-from icecream import ic
 from copy import deepcopy
 
 def fs():
